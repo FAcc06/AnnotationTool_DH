@@ -25,7 +25,7 @@ Then open http://localhost:8501
 1. Push your code to GitHub (don't include `firebase_config.json`)
 2. Go to [streamlit.io/cloud](https://streamlit.io/cloud) and create a new app
 3. Point it to `src/app.py`
-4. Add your Firebase credentials in Settings > Secrets using this format:
+4. Add your Firebase credentials in Advanced Settings using this format:
 
 ```toml
 FIREBASE_TYPE = "service_account"
